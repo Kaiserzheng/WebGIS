@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+package-lock*
+/platforms/
+/plugins/
+/www/*
+/www/js/main*
+/www/index.html

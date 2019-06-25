@@ -1,0 +1,32 @@
+{
+  "name": "WebGIS",
+  "displayName": "WebGIS",
+  "version": "1.0.0",
+  "description": "A  Apache Cordova application. WebGIS NodeJS VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "noone",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-browser": "6.0.0",
+    "cordova-ios": "5.0.1"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "ios",
+      "browser",
+      "electron"
+    ]
+  }
+}
